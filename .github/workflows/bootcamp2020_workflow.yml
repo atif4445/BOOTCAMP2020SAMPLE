@@ -29,7 +29,7 @@ jobs:
       -name: install surge
        run: npm install -g surge
       -name: run surge
-       run: surge ./ bootcamp2020_setup_by_atif.surge.sh --token${{secrets.Surge_Token}}
+       run: surge ./ bootcamp2020_atif_project1.surge.sh --token${{secrets.Surge_Token}}
       
           
         
